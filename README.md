@@ -1,7 +1,22 @@
 # ProdPack site (prodpack.dev)
 
 The marketing site for ProdPack. Static, multi-page, no build step. Open
-`index.html` directly, or point `prodpack.dev` at this folder.
+`index.html` directly, or serve this folder from any static host.
+
+## Deployment
+
+The public mirror is `sanif/prodpack-site`, deployed by GitHub Pages at
+<https://sanif.github.io/prodpack-site/>. After a reviewed `landing/` change is
+committed in this private repository, publish the exact directory with:
+
+```sh
+scripts/publish-landing.sh
+```
+
+`prodpack.dev` still requires registrar configuration. Point `www` to
+`sanif.github.io`, set `www.prodpack.dev` as the Pages custom domain, verify
+HTTPS, and retain or replace the apex-to-`www` redirect. Do not accept orders
+while the domain resolves to a parking page.
 
 ## Pages
 
