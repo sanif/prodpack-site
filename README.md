@@ -47,8 +47,8 @@ published output and third-party terms.
   Each approved order must state seller identity, price, seats, purchase date,
   supported systems, and the 12-month update window.
 - Application links use `support@prodpack.dev`. Confirm the mailbox, counsel-
-  approved terms, payment flow, and private signed-DMG delivery before taking
-  money.
+  approved terms, Dodo Payments test and live flow, and private signed-DMG
+  delivery before taking money.
 - Run `bun run check:landing` whenever policies or claims change so synchronized
   legal copies, links, and prohibited placeholder claims stay checked.
 - The technology-icon strip on the Home page loads from `cdn.simpleicons.org`
